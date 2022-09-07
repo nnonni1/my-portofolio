@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+
+*{
+
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+
+  font-family: "Roboto", sans-serif;
+
+}
+
+a{
+
+  text-decoration: none;
+
+}
+
+ul{
+
+  list-style-type: none;
+}
+
+.container{
+width: 1100px;
+max-width: 70%;
+margin: 0 auto ;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.profile-container{
+  display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ height: 10%;
+ min-height: fit-content;
+ background-image:url('../public/bg.jpg') ;
+ padding: 14px;
+ }
+ 
+ .profile-parent{
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+ 
+ 
+ }
+ 
+ .profile-detailes-name{
+ 
+     font-size: 24px;
+     font-family: "Poppins SemiBold";
+ }
+ 
+ .profile-dtails-role{
+ 
+     display: flex;
+     flex-direction:column ;
+     margin: 14px 0 24px 0;
+ }
+ 
+ .profile-dtails-role h1{
+   font-size: 40px;
+   font-family: cursive;
+ 
+ }
+ 
+ .pramary-text{
+ 
+     color: (--whitr);
+ }
+ 
+ .highlighted-text{
+  color: palevioletred ;
+ 
+ }
+ 
+ .profile-role-tagline{
+   font-size: 19px;
+   margin: 5px 0 0 0;
+   font-family: "Poppin Light";
+   
+ }
+ 
+ .profile-options .highlighted-btn{
+  margin: 0 0 0 28px;
+  
+ }
+ 
+ .profile-options .highlighted-btn:hover{
+     margin: 0 0 0 28px;
+     background-color: cornsilk;
+     color: black;
+    }
+ 
+  .profile-picture{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0 1px 0px 0px var(--white);
+   border-radius: 50%;
+   height: 380px;
+   width: 380px;
+   margin: 0 0px 0 100px;
+  }  
+ 
+  .profile-picture-background{
+ 
+     height: 92%;
+     width: 92%;
+     background-image: url('../public/profilephoto.jpg');
+     background-size: cover;
+     border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ 
+ .profile-picture-background:hover{
+  transform: scale(1.07);
+  transition: 1s ease-out;
+ }
+ 
+ .colz .colz-icon i{
+  color: white;
+ padding: 8px;
+ padding-left: 0px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  overflow-y: overlay;
+  font-family: "Poppins Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.16);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 14px 0;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Poppins SemiBold";
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.primary-btn {
+  color: var(--white);
+  border: 2px solid linen;
+  font-size: 12px;
+  background-color: #1f2235;
+}
+/* @media only screen and (max-width: 414px) {
+  .primary-btn {
+    font-size: 13px;
+  }
+} */
+
+.primary-btn:hover {
+  color: aliceblue;
+  border: 2px solid palevioletred;
+  background-color: #1f2235;
+}
+
+.highlighted-btn {
+  color: var(--white);
+
+  font-size: 12px;
+  background-color: palevioletred;
+}
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
+
+.red-border {
+  border: 1px solid var(--error-message) !important;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
+}
+
+
+
+
+
+.contactMe{
+ margin: 20px;
+ text-align: center;
+}
+
+
+
+
+
+.my-project{
+
+  background: palevioletred;
+  text-align: center;
+  height: 10%;
+  justify-content: center;
+  min-height: fit-content;
+ align-items: center;
+ padding: 40px ;
+
+ border:#1f2235 ;
+
+}
+
+.my-project-dev{
+
+  box-sizing: border-box;
+  display: flex;
+  margin: 20px;
+  border:#1f2235 ;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.my-project-dev div{
+  border:#1f2235 ;
+  padding: 10px;
+}
+
+
+.my-skills{
+margin: 0px 0px 0px 100px ;
+
+}
+
+
+.recommendation{
+  display: flex;
+  border-color: black solid;
+
+  border-radius: 20%;
+
+}
+
+
+.skills-li{
+display: flex;
+
+}
